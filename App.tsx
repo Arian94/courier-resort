@@ -77,7 +77,7 @@ const App = () => {
             return (
                 <NativeBaseProvider>
                     <Center flex={1} px="3">
-                        <TabsComponent />
+                        <TabsComponent token={credentials.password} />
                     </Center>
                 </NativeBaseProvider>
             );
